@@ -1,0 +1,51 @@
+{
+  "_from": "tns-core-modules-widgets@next",
+  "_id": "tns-core-modules-widgets@4.0.0-2018-02-28-01",
+  "_inBundle": false,
+  "_integrity": "sha1-iawEnZ+vvOKLApDBDhPtcByLYpQ=",
+  "_location": "/tns-core-modules-widgets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "tns-core-modules-widgets@next",
+    "name": "tns-core-modules-widgets",
+    "escapedName": "tns-core-modules-widgets",
+    "rawSpec": "next",
+    "saveSpec": null,
+    "fetchSpec": "next"
+  },
+  "_requiredBy": [
+    "/tns-core-modules"
+  ],
+  "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-4.0.0-2018-02-28-01.tgz",
+  "_shasum": "89ac049d9fafbce28b0290c10e13ed701c8b6294",
+  "_spec": "tns-core-modules-widgets@next",
+  "_where": "/Users/ardaulusoy/Desktop/Appo/my-app-name/node_modules/tns-core-modules",
+  "author": {
+    "name": "NativeScript team"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/android-widgets/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Native widgets used in the NativeScript framework.",
+  "homepage": "https://github.com/NativeScript/android-widgets#readme",
+  "license": "Apache-2.0",
+  "name": "tns-core-modules-widgets",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/android-widgets.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "4.0.0-2018-02-28-01"
+}

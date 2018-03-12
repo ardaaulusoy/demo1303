@@ -1,0 +1,23 @@
+<!--
+This is the page that is presented in the 'Home' tab.
+Feel free to customize layouts and components to change how the tab view looks.
+-->
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Tüm Kuponlar"></Label>
+    </ActionBar>
+
+
+    <ListView items="{{ items }}" itemTap="onItemTap">
+        <ListView.itemTemplate>
+            <StackLayout class="p-10" orientation="horizontal">
+                <Image src="https://www.ogrency.com/wp-content/uploads/2018/03/kalemlik-com-indirim-kodu-1.jpg" stretch="aspectFit" class="page-content"></Image>
+                <Label text="{{ name }}" textWrap="true" class="wp-subtitle"></Label>
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>

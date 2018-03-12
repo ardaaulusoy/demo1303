@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>myappname.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E6C59673D5FF4FBF30F232741305F3FE7DF94862</string>
+				<key>dateExpires</key>
+				<string>7.01.2019</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E6C59673D5FF4FBF30F232741305F3FE7DF94862</string>
+						<key>dateExpires</key>
+						<string>7.01.2019</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>NativeScript.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>376US3DL9N</string>
+						<key>name</key>
+						<string>Arda Ulusoy</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>E6C59673D5FF4FBF30F232741305F3FE7DF94862</string>
+						<key>dateExpires</key>
+						<string>7.01.2019</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>name</key>
+					<string>TNSWidgets.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>376US3DL9N</string>
+						<key>name</key>
+						<string>Arda Ulusoy</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>376US3DL9N.org.nativescript.myappnam1</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>376US3DL9N</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>myappname.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>23b4ec7d-f4da-42e1-aeab-cc8724d174c8</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: org.nativescript.myappnam1</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>376US3DL9N</string>
+				<key>name</key>
+				<string>Arda Ulusoy</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
